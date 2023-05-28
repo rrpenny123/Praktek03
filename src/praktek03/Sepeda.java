@@ -6,8 +6,8 @@ public class Sepeda {
     private double harga;
     
     void cetakInfo () {
-        System.err.println("Merk \t: "+merk+"\n"+
-                "Warna \t: "+warna+"\n"+
+        System.out.println("Merk \t: "+merk+"\n"+
+                "warna \t: "+warna+"\n"+
                 "Harga \t: "+harga);
     }
 
@@ -34,7 +34,6 @@ public class Sepeda {
     public void setHarga(double harga) {
         this.harga = harga;
     }
-    
     
     
 }
